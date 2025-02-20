@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nastavení fontů a barev */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce6f1; /* Světle růžová */
+    color: #4a90e2; /* Světle modrá */
+}
+
+/* Hlavička */
+header {
+    background-color: #4a90e2;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Sekce s fotkou kočky */
+.hero {
+    background-image: url('https://placekitten.com/1200/800'); /* Zatím nahrazeno fotkou kočky */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Polovina stránky */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #4a90e2;
+}
+
+/* Patka s odkazy */
+footer {
+    background-color: #fce6f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #4a90e2;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.highlighted {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4a90e2;
+    margin-top: 10px;
+}
